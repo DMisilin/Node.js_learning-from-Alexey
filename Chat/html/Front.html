@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Chat</title>
+    <style>
+        .contur {
+            position: relative;
+            background: #f00606;
+            height: 600px;
+            width: 800;
+            margin: 10;
+        }
+        .outMessage {
+            color: #25c52d;
+            margin: 4px;
+        }
+        .inMessage {
+            position: relative;
+            right: 1px;
+            color: #3010a3;
+            margin: 4px;
+            margin-left: 88px;
+        }
+        .dialog {
+            background: #000000;
+            position: relative;
+            overflow-y: scroll;
+            left: 0px;
+            height: 100px;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contur">
+    <h2 align="center">Welcome to chat</h3>
+        <h3 align="center">
+            <p>Переписка:</p>
+        </h3>
+        <div class="dialog"></div>
+        <input type="text" name="message" class="inputer"></input>
+        <button onclick="sendMess()" class="sender">Send</button>
+    </div>
+        <script>
+                  
+        </script>
+</body>
+</html>

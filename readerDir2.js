@@ -1,3 +1,4 @@
+// Рекурсивно прочитать директорию и вывести список ее файлов и файлов из вложенных директорий
 const {readdir} = require ('fs');
 const {join} = require('path');
 const {promisify} = require('util'); 
